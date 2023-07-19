@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title> feministic </title>
+    <link rel="icon" type="image/x-icon" href="um.png"> </link>
+    <style>
+        body
+        {font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        background-image: url("hiii.png");}
+        p
+        {text-align: justify;}
+        blockquote
+        {font-style: italic;}
+        .topnav {
+                    overflow:hidden;
+                    background-color: rgb(197, 143, 194);}
+                    .topnav a {
+                    float: left;
+                    color:rgb(0, 0, 0);
+                    background-color: rgb(197, 143, 194);
+                    text-align: center;
+                    padding: 10px;
+                    text-decoration: none;
+                    font-size: 17px;
+                    margin: 0;
+                    }
+                    .topnav a:hover {
+                    background-color: rgb(157, 124, 166);
+                    color: black;
+                    }
+            footer
+            {text-align: center;
+            padding:10px;
+            background-color: rgb(188, 147, 199);
+            margin-top: 20px;}
+            #love
+            {margin-left:2%;
+             margin-top: 2%}
+            label
+            {display: block;
+            width:200px;
+            float:left;
+            text-align: right;
+            clear:left;
+            margin:10px;
+            }
+            input,select,textarea
+            {margin:10px 5px;
+            vertical-align: middle;}
+            #submit
+            {margin-left: 18%;
+            margin-top: 1%;}
+        </style>
+    </head>
+    <body> 
+        <header>
+            <div class="topnav">
+                <a class="active" href="aboutfeminism.html">HOME</a>
+                <a href="fundingsources.html">DONATION</a>
+                <a href="whatyoucando.html">HOW YOU CAN HELP</a>
+                <a href="timeline.html">FEMINISM MOVEMENT TIMELINE</a>
+                <a href="myths.html">DEBUNK COMMON MYTHS</a>
+                <a href="watch.html">WATCH</a>
+                <a href="register.html">REGISTRATION</a>
+            </div>
+            </header>
+
+    <div id="love">
+         
+        <form action="form-submit.php" method="get">
+            <label for="fname">First name:</label>
+            <input type="text" name="fname" autofocus required id="fname"/>
+            <br>
+            <label for="lname">Last name:</label>
+            <input type="text" name="lname" required id="lname"/>
+            <br>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="check" value="ch1" id="gender"/>Female
+            <input type="radio" name="check" value="ch2" id="gender"/>Male
+            <input type="radio" name="check" value="ch3" id="gender"/>Rather not say
+            <br>
+            <label for="age">Age:</label>
+            <select name="age">
+            <option value="o1"id="age">-</option>
+            <option value="o2"id="age">0-17 years old</option>
+            <option value="o3"id="age">18-24 years old</option>
+            <option value="o4"id="age">25-34 years old</option>
+            <option value="o5"id="age">35-44 years old</option>
+            <option value="o6"id="age">45-54 years old</option>
+            <option value="o7"id="age">55-64 years old</option>
+            <option value="o8"id="age">65+ years old</option>
+            </select>
+            <br>
+            <label for="dob">Date of birth:</label> 
+            <input type="date" name="date" id="dob"/>
+            <br>
+            <label for="email">Email adress:</label>
+            <input type="email" name="email" placeholder="Enter a valid e-mail adress" required id="email"/>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" required id="password"/>
+            <br>
+            <label for="message">Message/vent/share:</label>
+            <textarea name="message" id="message"></textarea>
+            <br>
+            <label for="color">Your Favourite color:</label>
+            <input type="color" name="color" id="color"/>
+            <br>
+            <input type="submit" value="Send" id="submit"/>
+        </form>
+
+    </div>
